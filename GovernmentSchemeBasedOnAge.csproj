@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GovernmentSchemeBasedOnAge.UnitTest\**" />
+    <EmbeddedResource Remove="GovernmentSchemeBasedOnAge.UnitTest\**" />
+    <None Remove="GovernmentSchemeBasedOnAge.UnitTest\**" />
+  </ItemGroup>
+
+</Project>
